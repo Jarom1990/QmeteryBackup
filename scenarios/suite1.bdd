@@ -1,0 +1,50 @@
+
+
+#SCENARIO: SampleTest
+#META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	#Task-1 Given get 'Application base url'
+	 #Task-1 When Enter with 'abc1234' and 'Test@1234'
+	 #Given get 'Application base url'
+	 #When Enter with '' and ''
+	#Task-3 Given get 'Application base url'
+	#Task-3 When Enter with 'tushit.shah' and 'tushit.shah'
+	#Task-3 When Click on manager view
+	#Task-3 And Check on travel requests
+	#Task-4 Given get 'Application base url'
+	#Task-4 When Enter with 'tushit.shah' and 'tushit.shah'
+	#Task-4 When Click on manager view
+	#Task-4 And ViewAll Requests
+	#Task-5 Given get 'Application base url'
+	#Task-5 When Enter with 'tushit.shah' and 'tushit.shah'
+	#Task-5 And Clicking on LogOut Button
+	#Task-5 Then Verify Login Page after LogOut
+	#Task-6 Given get 'Application base url'
+	#Task-6 When Enter with 'ashish.biradar1' and 'Test@1234'
+	#Task-6	And Click on the R&R Side Menu
+	#Task-6 Given get 'Application base url'
+	#Task-6 When Enter with 'tushit.shah' and 'tushit.shah'
+	#Task-6 And Click on manager view
+	#Task-6 Then Click on View Other Requests
+	#Task-7 Given get 'Application base url'
+	#Task-7 When Enter with 'ashish.biradar1' and 'Test@1234'
+	#Task-7 And Click on the R&R Side Menu
+	#Given get 'Application base url'
+	#When Enters with 'tushit.shah' and 'tushit.shah'
+	#And  Click on the manager views
+	#Then Click on the R&R Sides Menu	
+	
+#END
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+
+Given get 'Application base url'
+	When Enters with 'tushit.shah' and 'tushit.shah'
+	And  Click on the manager views
+	Then Click on the R&R Sides Menu	
+	
+END
+
+
+
